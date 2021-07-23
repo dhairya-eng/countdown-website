@@ -1,0 +1,86 @@
+body{
+    background-color:  hsl(234, 17%, 12%);
+    background-image: url(images/bg-stars.svg);
+}
+.heading{
+    text-align: center;
+    color:  hsl(0, 0%, 100%);
+}
+.counter{
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    color:hsl(345, 95%, 68%) ;
+}
+
+.d{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 1pc;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+.h{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 1pc;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+.m{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 1pc;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+.s{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 1pc;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+
+#days{
+    position: relative;
+    bottom: 25px;
+    left: 35px;
+  
+    font-size: 50px;
+
+}
+
+#hour{
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    font-size: 50px;
+}
+
+#minute{
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+    font-size: 50px;
+}
+
+#second{
+    position: relative;
+    bottom: 25px;
+    left: 24px;
+    font-size: 50px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 6rem;
+    color: hsl(0, 0%, 100%); ;
+}
+.ima{
+    width: 100%;
+}
